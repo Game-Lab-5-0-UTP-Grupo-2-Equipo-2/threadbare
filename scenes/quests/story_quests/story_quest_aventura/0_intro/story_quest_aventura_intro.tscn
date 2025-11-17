@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://bui1lvx3o1nco"]
+[gd_scene load_steps=17 format=4 uid="uid://bui1lvx3o1nco"]
 
 [ext_resource type="TileSet" uid="uid://jr4exjygx8nf" path="res://scenes/quests/story_quests/story_quest_aventura/story_quest_aventura_tileset.tres" id="1_nxn1o"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_y163d"]
@@ -8,6 +8,10 @@
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_dk4gs"]
 [ext_resource type="PackedScene" uid="uid://bdtis4ye3hah2" path="res://scenes/quests/story_quests/shjourney/9_shjourney_outro_2/neblina.tscn" id="7_nxn1o"]
 [ext_resource type="Texture2D" uid="uid://duhbtwgn1tmvg" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/LUNA_eclipse_1.png" id="8_y4l0r"]
+[ext_resource type="Texture2D" uid="uid://op1bd2evnr2" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_1.png" id="9_htdnp"]
+[ext_resource type="Texture2D" uid="uid://dwdpa4pilajcx" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_2.png" id="10_dk4gs"]
+[ext_resource type="SpriteFrames" uid="uid://dm5jcge3jb7p1" path="res://scenes/game_elements/props/decoration/bush/components/bush_spriteframes_green_large.tres" id="11_brlu3"]
+[ext_resource type="Script" uid="uid://cms2wqtbxjl1h" path="res://scenes/game_elements/props/decoration/random_frame_animated_sprite.gd" id="12_vr57t"]
 
 [sub_resource type="Animation" id="Animation_brlu3"]
 length = 0.001
@@ -153,7 +157,7 @@ animation = &"idle"
 autoplay = "idle"
 centered = false
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="OnTheGround"]
+[node name="AnimationEren" type="AnimationPlayer" parent="OnTheGround"]
 root_node = NodePath("../..")
 libraries = {
 &"": SubResource("AnimationLibrary_obwv6")
@@ -163,10 +167,44 @@ libraries = {
 
 [node name="Cinematic" type="Node2D" parent="." node_paths=PackedStringArray("animation_player")]
 script = ExtResource("4_pu87m")
-animation_player = NodePath("../OnTheGround/AnimationPlayer")
+animation_player = NodePath("../OnTheGround/AnimationEren")
 next_scene = "uid://bfns6edhl5hsr"
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Rock" parent="." instance=ExtResource("6_dk4gs")]
 visible = false
-position = Vector2(125, 403)
+position = Vector2(87, 416)
+
+[node name="Arbol1" type="Sprite2D" parent="."]
+position = Vector2(99, 252.00003)
+scale = Vector2(1.6171875, 1.75)
+texture = ExtResource("9_htdnp")
+
+[node name="Arbol2" type="Sprite2D" parent="."]
+position = Vector2(289, 288.00003)
+scale = Vector2(1.2734375, 1.4453125)
+texture = ExtResource("10_dk4gs")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
+position = Vector2(818, 384)
+sprite_frames = ExtResource("11_brlu3")
+autoplay = "default"
+frame = 2
+script = ExtResource("12_vr57t")
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
+position = Vector2(198, 396)
+sprite_frames = ExtResource("11_brlu3")
+autoplay = "default"
+script = ExtResource("12_vr57t")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
+position = Vector2(595, 393)
+sprite_frames = ExtResource("11_brlu3")
+autoplay = "default"
+frame = 1
+script = ExtResource("12_vr57t")
