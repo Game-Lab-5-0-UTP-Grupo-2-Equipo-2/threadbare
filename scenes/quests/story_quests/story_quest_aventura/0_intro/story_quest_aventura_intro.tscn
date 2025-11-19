@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=4 uid="uid://bui1lvx3o1nco"]
+[gd_scene load_steps=18 format=4 uid="uid://bui1lvx3o1nco"]
 
 [ext_resource type="TileSet" uid="uid://jr4exjygx8nf" path="res://scenes/quests/story_quests/story_quest_aventura/story_quest_aventura_tileset.tres" id="1_nxn1o"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_y163d"]
@@ -7,9 +7,9 @@
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_pu87m"]
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_dk4gs"]
 [ext_resource type="PackedScene" uid="uid://bdtis4ye3hah2" path="res://scenes/quests/story_quests/shjourney/9_shjourney_outro_2/neblina.tscn" id="7_nxn1o"]
+[ext_resource type="Texture2D" uid="uid://s6olixcsyfky" path="res://scenes/quests/story_quests/shjourney/4_Laberinto/personajes/image (1).png" id="7_vr57t"]
 [ext_resource type="Texture2D" uid="uid://duhbtwgn1tmvg" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/LUNA_eclipse_1.png" id="8_y4l0r"]
 [ext_resource type="Texture2D" uid="uid://op1bd2evnr2" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_1.png" id="9_htdnp"]
-[ext_resource type="Texture2D" uid="uid://dwdpa4pilajcx" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_2.png" id="10_dk4gs"]
 [ext_resource type="SpriteFrames" uid="uid://dm5jcge3jb7p1" path="res://scenes/game_elements/props/decoration/bush/components/bush_spriteframes_green_large.tres" id="11_brlu3"]
 [ext_resource type="Script" uid="uid://cms2wqtbxjl1h" path="res://scenes/game_elements/props/decoration/random_frame_animated_sprite.gd" id="12_vr57t"]
 
@@ -103,8 +103,11 @@ _data = {
 &"walk_on": SubResource("Animation_s3acf")
 }
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s3acf"]
+load_path = "res://.godot/imported/ARBOL_2.png-10b17994f88025eaba4876372d0daf78.ctex"
+
 [node name="Intro" type="Node2D"]
-modulate = Color(0.61339027, 0.61339027, 0.61339027, 1)
+modulate = Color(0.5729885, 0.57298815, 0.57298833, 1)
 
 [node name="TileMapLayers" type="Node2D" parent="."]
 modulate = Color(0.46229059, 0.46229059, 0.46229059, 1)
@@ -115,7 +118,6 @@ tile_set = ExtResource("1_nxn1o")
 metadata/_edit_lock_ = true
 
 [node name="Sand" type="TileMapLayer" parent="TileMapLayers"]
-tile_map_data = PackedByteArray("AAAAAAcAAwABAAAAAAABAAcAAwABAAAAAAADAAcAAwABAAAAAAAEAAcAAwABAAAAAAAFAAcAAwABAAAAAAAGAAcAAwABAAAAAAAHAAcAAwABAAAAAAAIAAcAAwABAAAAAAAJAAcAAwABAAAAAAAKAAcAAwABAAAAAAALAAcAAwABAAAAAAAMAAcAAwABAAAAAAANAAcAAwABAAAAAAAOAAcAAwABAAAAAAACAAcAAwABAAAAAAA=")
 tile_set = ExtResource("1_y163d")
 
 [node name="Acantilados" type="TileMapLayer" parent="TileMapLayers"]
@@ -124,7 +126,7 @@ tile_set = ExtResource("1_y163d")
 
 [node name="Hijaeren" type="Sprite2D" parent="TileMapLayers"]
 self_modulate = Color(0.32915837, 0.3291584, 0.3291584, 1)
-position = Vector2(751, 163.99998)
+position = Vector2(770.99994, 163)
 scale = Vector2(1.2277768, 1.1999996)
 texture = ExtResource("3_y163d")
 
@@ -145,6 +147,69 @@ limit_right = 960
 limit_bottom = 540
 position_smoothing_enabled = true
 editor_draw_limits = true
+
+[node name="Piso agrietado" type="Node2D" parent="."]
+position = Vector2(113.00001, 633)
+rotation = -1.5582281
+scale = Vector2(1, 0.67)
+
+[node name="Image(1)" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(150.9447, 53.919792)
+scale = Vector2(1.31897, 2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)7" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(160.421, 596.567)
+scale = Vector2(1.31897, 2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)4" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(158.44633, 1001.58453)
+scale = Vector2(1.31897, 2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)3" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(140.94832, 326.8446)
+rotation = -0.0371693
+scale = Vector2(1.365952, 2.160492)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)9" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(165.448, 872.008)
+rotation = -0.0371693
+scale = Vector2(1.31897, 2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)2" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(145.63503, 192.80579)
+rotation = -3.10036
+scale = Vector2(1.319, -2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)10" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(150.20883, -95.36245)
+rotation = -3.171595
+scale = Vector2(1.319, -2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)5" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(151.10434, 461.06766)
+rotation = 3.12402
+scale = Vector2(1.2806675, -2.4435234)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)8" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(162.958, 734.469)
+rotation = 3.12402
+scale = Vector2(1.319, -2.5)
+texture = ExtResource("7_vr57t")
+
+[node name="Image(1)11" type="Sprite2D" parent="Piso agrietado"]
+position = Vector2(162.24654, 1153.9784)
+rotation = 1.5623754
+scale = Vector2(-3.1912255, 1.541339)
+skew = -0.010336399
+texture = ExtResource("7_vr57t")
 
 [node name="OnTheGround" type="Node2D" parent="."]
 y_sort_enabled = true
@@ -175,19 +240,24 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 visible = false
 position = Vector2(87, 416)
 
+[node name="Arbol2" type="Sprite2D" parent="."]
+position = Vector2(237.99997, 241.00002)
+scale = Vector2(1.2734375, 1.4453124)
+texture = SubResource("CompressedTexture2D_s3acf")
+
 [node name="Arbol1" type="Sprite2D" parent="."]
-position = Vector2(99, 252.00003)
+position = Vector2(136, 236)
 scale = Vector2(1.6171875, 1.75)
 texture = ExtResource("9_htdnp")
 
-[node name="Arbol2" type="Sprite2D" parent="."]
-position = Vector2(289, 288.00003)
-scale = Vector2(1.2734375, 1.4453125)
-texture = ExtResource("10_dk4gs")
+[node name="Arbol1" type="Sprite2D" parent="Arbol1"]
+position = Vector2(-49.468582, 24)
+scale = Vector2(1.0211543, 1.0625004)
+texture = ExtResource("9_htdnp")
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
-position = Vector2(818, 384)
+position = Vector2(280, 428)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
 frame = 2
@@ -195,16 +265,41 @@ script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
-position = Vector2(198, 396)
+position = Vector2(144, 417)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
+frame = 3
 script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
 self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
-position = Vector2(595, 393)
+position = Vector2(202, 392)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
-frame = 1
 script = ExtResource("12_vr57t")
+
+[node name="Arbol3" type="Sprite2D" parent="."]
+position = Vector2(470, 256)
+scale = Vector2(1.2734375, 1.4453125)
+texture = SubResource("CompressedTexture2D_s3acf")
+
+[node name="Arbol4" type="Sprite2D" parent="."]
+position = Vector2(612, 240)
+scale = Vector2(1.2734375, 1.4453125)
+texture = SubResource("CompressedTexture2D_s3acf")
+
+[node name="Arbol5" type="Sprite2D" parent="."]
+position = Vector2(328, 268.99997)
+scale = Vector2(1.6171875, 1.75)
+texture = ExtResource("9_htdnp")
+
+[node name="Arbol6" type="Sprite2D" parent="."]
+position = Vector2(731, 294.00003)
+scale = Vector2(1.6171875, 1.75)
+texture = ExtResource("9_htdnp")
+
+[node name="Arbol7" type="Sprite2D" parent="."]
+position = Vector2(883, 266.00003)
+scale = Vector2(1.6171875, 1.75)
+texture = ExtResource("9_htdnp")

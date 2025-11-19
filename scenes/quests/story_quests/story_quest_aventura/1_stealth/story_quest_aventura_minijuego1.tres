@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=59 format=3 uid="uid://3mr25w7x2tmi"]
+[gd_resource type="TileSet" load_steps=63 format=3 uid="uid://3mr25w7x2tmi"]
 
 [ext_resource type="Texture2D" uid="uid://doc4qg7e3kgs" path="res://assets/third_party/tiny-swords/Terrain/Water/Water.png" id="1_8n85s"]
 [ext_resource type="Texture2D" uid="uid://lg5dl13njsg3" path="res://assets/first_party/tiles/Grass_And_Sand_Tiles.png" id="2_fmb1s"]
@@ -6,7 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://td3y2vjom24f" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level3.png" id="4_6cvfl"]
 [ext_resource type="Texture2D" uid="uid://brnsfo2pejt7i" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level4.png" id="5_ltmkm"]
 [ext_resource type="Texture2D" uid="uid://d0156jkhip32" path="res://assets/first_party/tiles/Void_Tiles_Chromakey.png" id="6_4jymt"]
+[ext_resource type="Texture2D" uid="uid://op1bd2evnr2" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_1.png" id="7_eknkb"]
 [ext_resource type="Texture2D" uid="uid://cexg7otw5enpu" path="res://assets/third_party/tiny-swords/Terrain/Water/Foam/Foam.png" id="7_no0gg"]
+[ext_resource type="Texture2D" uid="uid://dwdpa4pilajcx" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_2.png" id="8_ixe4s"]
 [ext_resource type="Texture2D" uid="uid://cnmmh3uq7rkla" path="res://assets/third_party/tiny-swords/Terrain/Bridge/Bridge_All.png" id="8_tcidx"]
 [ext_resource type="Texture2D" uid="uid://dh37whetc1rg0" path="res://scenes/quests/story_quests/story_quest_aventura/1_stealth/stealth_components/freenature.png" id="8_uj43b"]
 [ext_resource type="Texture2D" uid="uid://c58c4l1c7ojfa" path="res://scenes/game_elements/props/tree/components/Tree_Patches_Red.png" id="9_ea3nv"]
@@ -625,6 +627,30 @@ texture_region_size = Vector2i(64, 64)
 3:3/0/terrain_set = 0
 3:3/0/terrain = 9
 3:3/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xl6eq"]
+texture = ExtResource("7_eknkb")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+0:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:0/0 = 0
+1:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+0:1/0 = 0
+0:1/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:1/0 = 0
+1:1/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aduof"]
+texture = ExtResource("8_ixe4s")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+0:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:0/0 = 0
+1:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+0:1/0 = 0
+0:1/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:1/0 = 0
+1:1/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qml6a"]
 texture = ExtResource("7_no0gg")
@@ -1949,6 +1975,8 @@ sources/22 = SubResource("TileSetAtlasSource_qgghs")
 sources/23 = SubResource("TileSetAtlasSource_ixe4s")
 sources/24 = SubResource("TileSetAtlasSource_yhbq6")
 sources/25 = SubResource("TileSetAtlasSource_v8gvd")
+sources/14 = SubResource("TileSetAtlasSource_xl6eq")
+sources/15 = SubResource("TileSetAtlasSource_aduof")
 pattern_0 = SubResource("TileMapPattern_0wfyh")
 pattern_1 = SubResource("TileMapPattern_sugp2")
 pattern_2 = SubResource("TileMapPattern_jyhfs")
