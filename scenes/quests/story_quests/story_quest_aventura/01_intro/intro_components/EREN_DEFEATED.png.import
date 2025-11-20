@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://knbsa3w03kpk"
-path="res://.godot/imported/LUNA_1.png-68bfb36b5b4dcde5d592940d01cad7a1.ctex"
+uid="uid://d21r4m8fnxgqw"
+path="res://.godot/imported/EREN_DEFEATED.png-8383e2fd8b23edfa1be1259155c071b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/LUNA_1.png"
-dest_files=["res://.godot/imported/LUNA_1.png-68bfb36b5b4dcde5d592940d01cad7a1.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_DEFEATED.png"
+dest_files=["res://.godot/imported/EREN_DEFEATED.png-8383e2fd8b23edfa1be1259155c071b3.ctex"]
 
 [params]
 

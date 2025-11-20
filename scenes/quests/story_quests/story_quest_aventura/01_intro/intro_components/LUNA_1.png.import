@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjkc7xwh5164e"
-path="res://.godot/imported/EREN_IDLE.png-c92a54f07310eeb06d35e74638c2b182.ctex"
+uid="uid://knbsa3w03kpk"
+path="res://.godot/imported/LUNA_1.png-c37b80edebf71f53fa5fdff87598e1c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/EREN_IDLE.png"
-dest_files=["res://.godot/imported/EREN_IDLE.png-c92a54f07310eeb06d35e74638c2b182.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/LUNA_1.png"
+dest_files=["res://.godot/imported/LUNA_1.png-c37b80edebf71f53fa5fdff87598e1c3.ctex"]
 
 [params]
 

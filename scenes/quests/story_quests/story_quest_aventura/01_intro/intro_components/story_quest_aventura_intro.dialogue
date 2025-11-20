@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-License-Identifier: MPL-2.0
+~ start
+do animation_player.play(&"walk_on")
+do animation_player.animation_finished
+“Eren tiene hasta que termine el eclipse… 
+antes de que ella se desvanezca para siempre.”
+do animation_player.play(&"walk_off")
+=> END
+
+
+

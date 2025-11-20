@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ca5cq71qhsltr"
+path="res://.godot/imported/story_quest_aventura_intro.dialogue-6c44b8a5b0e9a32cca1bfa3489683273.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/story_quest_aventura_intro.dialogue"
+dest_files=["res://.godot/imported/story_quest_aventura_intro.dialogue-6c44b8a5b0e9a32cca1bfa3489683273.tres"]
+
+[params]
+
+defaults=true

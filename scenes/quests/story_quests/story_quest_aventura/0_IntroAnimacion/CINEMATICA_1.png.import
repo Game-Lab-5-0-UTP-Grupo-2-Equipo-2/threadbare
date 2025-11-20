@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b21meaoqldoeh"
-path="res://.godot/imported/story_quest_aventura_intro_image.png-d7f5eef4286c718ea099dc665043d667.ctex"
+uid="uid://da373jxylt6m6"
+path="res://.godot/imported/CINEMATICA_1.png-0d71b5ae1bc6f86981f71e7b305b3bb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/story_quest_aventura_intro_image.png"
-dest_files=["res://.godot/imported/story_quest_aventura_intro_image.png-d7f5eef4286c718ea099dc665043d667.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/CINEMATICA_1.png"
+dest_files=["res://.godot/imported/CINEMATICA_1.png-0d71b5ae1bc6f86981f71e7b305b3bb6.ctex"]
 
 [params]
 

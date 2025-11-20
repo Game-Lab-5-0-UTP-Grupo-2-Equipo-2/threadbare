@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b0kexdddbmi7n" path="res://scenes/quests/story_quests/NO_EDIT/NO_EDIT_player_components/NO_EDIT_player_idle.png" id="2_bi3qj"]
 [ext_resource type="Texture2D" uid="uid://covbt3em3ppm1" path="res://scenes/quests/story_quests/NO_EDIT/NO_EDIT_player_components/NO_EDIT_player_attack_02.png" id="2_cu6lk"]
 [ext_resource type="Texture2D" uid="uid://dly3ikrx05f0x" path="res://scenes/quests/story_quests/NO_EDIT/NO_EDIT_player_components/NO_EDIT_player_defeated.png" id="2_qxir4"]
-[ext_resource type="Texture2D" uid="uid://c8yhxipthxpfk" path="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/EREN_WALK.png" id="5_hn2lb"]
+[ext_resource type="Texture2D" uid="uid://c8yhxipthxpfk" path="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_WALK.png" id="5_hn2lb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yg72c"]
 atlas = ExtResource("1_m5whc")

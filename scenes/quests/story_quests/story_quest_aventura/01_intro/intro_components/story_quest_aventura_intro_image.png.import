@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://op1bd2evnr2"
-path="res://.godot/imported/ARBOL_1.png-6e2a8fd438326913ebcc9715101fdc7d.ctex"
+uid="uid://b21meaoqldoeh"
+path="res://.godot/imported/story_quest_aventura_intro_image.png-ee4307a6254eb58a009bc1cb6e6e525e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/ARBOL_1.png"
-dest_files=["res://.godot/imported/ARBOL_1.png-6e2a8fd438326913ebcc9715101fdc7d.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/story_quest_aventura_intro_image.png"
+dest_files=["res://.godot/imported/story_quest_aventura_intro_image.png-ee4307a6254eb58a009bc1cb6e6e525e.ctex"]
 
 [params]
 

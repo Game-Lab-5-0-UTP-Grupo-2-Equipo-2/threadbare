@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cymvc6g2rbx12"]
 
-[ext_resource type="VideoStream" uid="uid://b88hkpe17wfy" path="res://scenes/quests/story_quests/shjourney/0_IntroVideo/INTRO-SHADOWJOURNEY.ogv" id="1_ukt3l"]
+[ext_resource type="VideoStream" uid="uid://bak6317os56i5" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroVideo/CINEMATICA.ogv" id="1_ejcsm"]
 [ext_resource type="Script" uid="uid://by0he8a7u0dpy" path="res://scenes/quests/story_quests/shjourney/0_IntroVideo/saltar_video.gd" id="2_4m12n"]
-[ext_resource type="Script" uid="uid://c1dkwfla1u75g" path="res://scenes/quests/story_quests/shjourney/0_IntroVideo/cinematicVideo.gd" id="3_4m12n"]
+[ext_resource type="Script" uid="uid://c31oibeaye4yi" path="res://scenes/quests/story_quests/shjourney/0_IntroVideo/cinematicVideo.gd" id="3_4m12n"]
 [ext_resource type="PackedScene" uid="uid://bdlaxkehg7vd6" path="res://scenes/quests/story_quests/shjourney/saltar_cinematica_hint.tscn" id="4_ejcsm"]
 
 [node name="Control" type="Control"]
@@ -20,7 +20,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-stream = ExtResource("1_ukt3l")
+stream = ExtResource("1_ejcsm")
 autoplay = true
 expand = true
 script = ExtResource("2_4m12n")
