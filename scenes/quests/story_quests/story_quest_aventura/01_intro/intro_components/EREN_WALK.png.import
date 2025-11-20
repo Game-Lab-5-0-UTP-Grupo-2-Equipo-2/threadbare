@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8yhxipthxpfk"
-path="res://.godot/imported/EREN_WALK.png-54753558270afd13d927c7501ef58746.ctex"
+path="res://.godot/imported/EREN_WALK.png-8ead35b97e9667960f7caef912115510.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/EREN_WALK.png"
-dest_files=["res://.godot/imported/EREN_WALK.png-54753558270afd13d927c7501ef58746.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_WALK.png"
+dest_files=["res://.godot/imported/EREN_WALK.png-8ead35b97e9667960f7caef912115510.ctex"]
 
 [params]
 

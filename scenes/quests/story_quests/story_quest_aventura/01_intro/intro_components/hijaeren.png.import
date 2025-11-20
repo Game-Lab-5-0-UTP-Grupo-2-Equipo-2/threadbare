@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d21r4m8fnxgqw"
-path="res://.godot/imported/EREN_DEFEATED.png-69ca49ce2fce6d166678060e1aec713b.ctex"
+uid="uid://nch0js7vmw3s"
+path="res://.godot/imported/hijaeren.png-a94ee8f5d9704d74eb1e91d817a526c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/EREN_DEFEATED.png"
-dest_files=["res://.godot/imported/EREN_DEFEATED.png-69ca49ce2fce6d166678060e1aec713b.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/hijaeren.png"
+dest_files=["res://.godot/imported/hijaeren.png-a94ee8f5d9704d74eb1e91d817a526c5.ctex"]
 
 [params]
 

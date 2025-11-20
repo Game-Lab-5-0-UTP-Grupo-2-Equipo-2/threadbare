@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nch0js7vmw3s"
-path="res://.godot/imported/hijaeren.png-0f53a6c942370f9a2eda8c736eeef79c.ctex"
+uid="uid://dwdpa4pilajcx"
+path="res://.godot/imported/ARBOL_2.png-190bfad20e68973f8eac63f6fcb4802f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_intro/intro_components/hijaeren.png"
-dest_files=["res://.godot/imported/hijaeren.png-0f53a6c942370f9a2eda8c736eeef79c.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/ARBOL_2.png"
+dest_files=["res://.godot/imported/ARBOL_2.png-190bfad20e68973f8eac63f6fcb4802f.ctex"]
 
 [params]
 
