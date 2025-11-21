@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://op1bd2evnr2" path="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/ARBOL_1.png" id="9_htdnp"]
 [ext_resource type="SpriteFrames" uid="uid://dm5jcge3jb7p1" path="res://scenes/game_elements/props/decoration/bush/components/bush_spriteframes_green_large.tres" id="11_brlu3"]
 [ext_resource type="Script" uid="uid://cms2wqtbxjl1h" path="res://scenes/game_elements/props/decoration/random_frame_animated_sprite.gd" id="12_vr57t"]
-[ext_resource type="AudioStream" uid="uid://dwjvi883k8shq" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/suspense-tension-building-427630.mp3" id="13_rxh76"]
+[ext_resource type="AudioStream" uid="uid://dwjvi883k8shq" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacionEclipse/suspense-tension-building-427630.mp3" id="13_rxh76"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s3acf"]
 load_path = "res://.godot/imported/ARBOL_2.png-10b17994f88025eaba4876372d0daf78.ctex"
@@ -41,7 +41,7 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(400, 369)]
+"values": [Vector2(380, 371)]
 }
 
 [sub_resource type="Animation" id="Animation_vr57t"]
@@ -69,7 +69,7 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0, 2),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(495, 369), Vector2(1010, 369)]
+"values": [Vector2(380, 371), Vector2(853, 371)]
 }
 
 [sub_resource type="Animation" id="Animation_s3acf"]
@@ -97,7 +97,7 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0, 2),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(0, 369), Vector2(495, 369)]
+"values": [Vector2(-5, 371), Vector2(380, 371)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_obwv6"]
@@ -238,7 +238,6 @@ self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
 position = Vector2(280, 428)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
-frame = 1
 script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
@@ -246,7 +245,6 @@ self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
 position = Vector2(144, 417)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
-frame = 1
 script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -292,7 +290,7 @@ y_sort_enabled = true
 position = Vector2(1, 1)
 
 [node name="Character" type="AnimatedSprite2D" parent="OnTheGround"]
-position = Vector2(400, 369)
+position = Vector2(380, 371)
 scale = Vector2(2.0897896, 2.085938)
 sprite_frames = ExtResource("3_y4l0r")
 animation = &"idle"
