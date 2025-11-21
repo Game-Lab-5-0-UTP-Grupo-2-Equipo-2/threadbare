@@ -1,12 +1,12 @@
 [gd_scene load_steps=44 format=3 uid="uid://i2kecxklomdv"]
 
-[ext_resource type="Texture2D" uid="uid://da373jxylt6m6" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/CINEMATICA_1.png" id="1_2vos4"]
-[ext_resource type="AudioStream" uid="uid://dwjvi883k8shq" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/suspense-tension-building-427630.mp3" id="2_8aulc"]
+[ext_resource type="Texture2D" uid="uid://da373jxylt6m6" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacionEclipse/CINEMATICA_1.png" id="1_2vos4"]
+[ext_resource type="AudioStream" uid="uid://dwjvi883k8shq" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacionEclipse/suspense-tension-building-427630.mp3" id="2_8aulc"]
 [ext_resource type="AudioStream" uid="uid://c5v8fsnkut3xc" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/template_intro_components/EffectSounds/switch-off.wav" id="3_p1wwx"]
 [ext_resource type="AudioStream" uid="uid://clmxwnxcaonc" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/template_intro_components/EffectSounds/Dessapear-effect.wav" id="4_giojl"]
 [ext_resource type="AudioStream" uid="uid://cy2i2517hhtvo" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/template_intro_components/EffectSounds/clock-tickingecho.wav" id="5_akbxs"]
 [ext_resource type="AudioStream" uid="uid://d3f7n4510edop" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/template_intro_components/EffectSounds/woman-gasping.mp3" id="6_6b8vn"]
-[ext_resource type="Script" uid="uid://c2dedfajc07f1" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/cinematicSprite.gd" id="7_djhxj"]
+[ext_resource type="Script" uid="uid://c2dedfajc07f1" path="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacionEclipse/cinematicSprite.gd" id="7_djhxj"]
 [ext_resource type="PackedScene" uid="uid://bdlaxkehg7vd6" path="res://scenes/quests/story_quests/shjourney/saltar_cinematica_hint.tscn" id="8_dpgvs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uu7ca"]

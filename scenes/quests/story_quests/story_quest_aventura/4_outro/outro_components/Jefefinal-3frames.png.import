@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da373jxylt6m6"
-path="res://.godot/imported/CINEMATICA_1.png-0d71b5ae1bc6f86981f71e7b305b3bb6.ctex"
+uid="uid://bbbtrpuafdme6"
+path="res://.godot/imported/Jefefinal-3frames.png-956bb948e0db92c17c4fffbf3323b74b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/CINEMATICA_1.png"
-dest_files=["res://.godot/imported/CINEMATICA_1.png-0d71b5ae1bc6f86981f71e7b305b3bb6.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/4_outro/outro_components/Jefefinal-3frames.png"
+dest_files=["res://.godot/imported/Jefefinal-3frames.png-956bb948e0db92c17c4fffbf3323b74b.ctex"]
 
 [params]
 

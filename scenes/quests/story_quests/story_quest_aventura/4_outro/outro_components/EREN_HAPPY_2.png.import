@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvol86td8yk22"
-path="res://.godot/imported/timysuhermanadurmiendo-Sheet.png-7ac98d74b0d842ae1b0f9bb01739593e.ctex"
+uid="uid://j853dnfuv5b4"
+path="res://.godot/imported/EREN_HAPPY_2.png-a8b99669f35e782479e9de19efd01794.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/story_quest_aventura/0_IntroAnimacion/timysuhermanadurmiendo-Sheet.png"
-dest_files=["res://.godot/imported/timysuhermanadurmiendo-Sheet.png-7ac98d74b0d842ae1b0f9bb01739593e.ctex"]
+source_file="res://scenes/quests/story_quests/story_quest_aventura/4_outro/outro_components/EREN_HAPPY_2.png"
+dest_files=["res://.godot/imported/EREN_HAPPY_2.png-a8b99669f35e782479e9de19efd01794.ctex"]
 
 [params]
 

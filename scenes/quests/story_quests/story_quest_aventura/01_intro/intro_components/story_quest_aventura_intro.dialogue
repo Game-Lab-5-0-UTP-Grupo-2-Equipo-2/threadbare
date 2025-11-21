@@ -3,8 +3,8 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-“Eren tiene hasta que termine el eclipse… 
-antes de que ella se desvanezca para siempre.”
+“Eren tiene solo hasta que el eclipse termine… 
+Antes de que ella se desvanezca para siempre.”
 do animation_player.play(&"walk_off")
 => END
 
