@@ -238,6 +238,7 @@ self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
 position = Vector2(280, 428)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
+frame = 3
 script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
@@ -245,7 +246,6 @@ self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
 position = Vector2(144, 417)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
-frame = 2
 script = ExtResource("12_vr57t")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -254,7 +254,6 @@ self_modulate = Color(0.31764707, 0.34117648, 0.20784314, 0.3647059)
 position = Vector2(202, 392)
 sprite_frames = ExtResource("11_brlu3")
 autoplay = "default"
-frame = 2
 script = ExtResource("12_vr57t")
 
 [node name="Arbol8" type="Sprite2D" parent="."]
