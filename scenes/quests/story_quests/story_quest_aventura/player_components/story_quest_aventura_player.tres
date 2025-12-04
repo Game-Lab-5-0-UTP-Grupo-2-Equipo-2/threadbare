@@ -2,9 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://uowkagkduow6" path="res://scenes/quests/story_quests/story_quest_aventura/player_components/story_quest_aventura_player_attack_01.png" id="1_kxngm"]
 [ext_resource type="Texture2D" uid="uid://bit3a81oumdrc" path="res://scenes/quests/story_quests/story_quest_aventura/player_components/story_quest_aventura_player_attack_02.png" id="2_is0hm"]
-[ext_resource type="Texture2D" uid="uid://d21r4m8fnxgqw" path="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_DEFEATED.png" id="3_kxngm"]
-[ext_resource type="Texture2D" uid="uid://bjkc7xwh5164e" path="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_IDLE.png" id="4_kxngm"]
-[ext_resource type="Texture2D" uid="uid://c8yhxipthxpfk" path="res://scenes/quests/story_quests/story_quest_aventura/01_intro/intro_components/EREN_WALK.png" id="5_is0hm"]
+[ext_resource type="Texture2D" uid="uid://d21r4m8fnxgqw" path="res://scenes/quests/story_quests/story_quest_aventura/1_intro/intro_components/EREN_DEFEATED.png" id="3_kxngm"]
+[ext_resource type="Texture2D" uid="uid://bjkc7xwh5164e" path="res://scenes/quests/story_quests/story_quest_aventura/1_intro/intro_components/EREN_IDLE.png" id="4_kxngm"]
+[ext_resource type="Texture2D" uid="uid://c8yhxipthxpfk" path="res://scenes/quests/story_quests/story_quest_aventura/1_intro/intro_components/EREN_WALK.png" id="5_is0hm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yg72c"]
 atlas = ExtResource("1_kxngm")

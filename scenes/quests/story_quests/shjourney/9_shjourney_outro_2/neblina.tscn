@@ -8,9 +8,9 @@ frequency = 0.0075
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_ys0ab"]
 width = 320
 height = 180
+noise = SubResource("FastNoiseLite_jw523")
 seamless = true
 seamless_blend_skirt = 0.75
-noise = SubResource("FastNoiseLite_jw523")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nwsd5"]
 shader = ExtResource("1_t7twm")
@@ -30,3 +30,10 @@ material = SubResource("ShaderMaterial_nwsd5")
 offset_top = -6.0
 offset_right = 1920.0
 offset_bottom = 1074.0
+
+[node name="ColorRect2" type="ColorRect" parent="ParallaxLayer"]
+material = SubResource("ShaderMaterial_nwsd5")
+offset_left = 3675.0
+offset_top = -1.0
+offset_right = 5595.0
+offset_bottom = 1079.0

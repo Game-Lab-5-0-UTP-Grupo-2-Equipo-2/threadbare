@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c6t03te3culi5"
+path="res://.godot/imported/story_quest_aventura_checkpoint.dialogue-9e58dacaa879169214a64c8246336a67.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/story_quest_aventura/2_stealth/stealth_components/story_quest_aventura_checkpoint.dialogue"
+dest_files=["res://.godot/imported/story_quest_aventura_checkpoint.dialogue-9e58dacaa879169214a64c8246336a67.tres"]
+
+[params]
+
+defaults=true
