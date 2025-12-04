@@ -602,7 +602,7 @@ animations = [{
 
 [sub_resource type="Curve2D" id="Curve2D_uyvnh"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 625.9668, 282.2489, 0, 0, 0, 0, 625.7925, 670.7577)
+"points": PackedVector2Array(0, 0, 0, 0, 616.33057, 332.3717, 0, 0, 0, 0, 616.17285, 683.28284)
 }
 point_count = 2
 
@@ -911,7 +911,7 @@ scale = Vector2(0.83211356, 0.6383381)
 curve = SubResource("Curve2D_qftif")
 
 [node name="Guard2-RunningInCircles6" parent="EnemyGuards" node_paths=PackedStringArray("patrol_path") instance=ExtResource("5_aupm2")]
-position = Vector2(4671.507, 842.73584)
+position = Vector2(4663.4883, 874.7311)
 sprite_frames = SubResource("SpriteFrames_tj6j5")
 alerted_sound_stream = ExtResource("11_knkjp")
 alert_others_sound_stream = ExtResource("12_gle77")
