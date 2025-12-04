@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cae10mh6roenk"]
+[gd_scene load_steps=6 format=3 uid="uid://cae10mh6roenk"]
 
 [ext_resource type="Texture2D" uid="uid://b00c4kiewn30t" path="res://assets/third_party/tiny-swords/UI/Banners/Banner_Horizontal.png" id="1_cikk2"]
 [ext_resource type="Script" uid="uid://bvv51rbqbu78f" path="res://scenes/ui_elements/story_quest_progress/components/story_quest_progress.gd" id="2_hvmtc"]
 [ext_resource type="PackedScene" uid="uid://1mjm4atk2j6e" path="res://scenes/ui_elements/story_quest_progress/components/item_slot/item_slot.tscn" id="3_mwl7j"]
+[ext_resource type="Texture2D" uid="uid://dyl6wfokridv7" path="res://scenes/quests/story_quests/story_quest_aventura/2_stealth/stealth_components/rosa.png" id="4_hvmtc"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hqnrr"]
 content_margin_top = 32.0
@@ -36,14 +37,17 @@ size_flags_vertical = 4
 [node name="ItemSlot" parent="ItemsContainer" instance=ExtResource("3_mwl7j")]
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
+texture = ExtResource("4_hvmtc")
 expand_mode = 2
 
 [node name="ItemSlot2" parent="ItemsContainer" instance=ExtResource("3_mwl7j")]
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
+texture = ExtResource("4_hvmtc")
 expand_mode = 2
 
 [node name="ItemSlot3" parent="ItemsContainer" instance=ExtResource("3_mwl7j")]
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
+texture = ExtResource("4_hvmtc")
 expand_mode = 2

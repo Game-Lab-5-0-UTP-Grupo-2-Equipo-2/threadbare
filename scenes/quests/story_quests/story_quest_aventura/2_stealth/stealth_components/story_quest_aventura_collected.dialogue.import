@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dpyvkd8x34rrj"
+path="res://.godot/imported/story_quest_aventura_collected.dialogue-6f054223181b98e0585a46f077f3b242.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/story_quest_aventura/2_stealth/stealth_components/story_quest_aventura_collected.dialogue"
+dest_files=["res://.godot/imported/story_quest_aventura_collected.dialogue-6f054223181b98e0585a46f077f3b242.tres"]
+
+[params]
+
+defaults=true

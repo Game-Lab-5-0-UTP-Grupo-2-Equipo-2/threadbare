@@ -1,6 +1,6 @@
 [gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://dmg1egdoye3ns"]
 
-[ext_resource type="Texture2D" uid="uid://bbhr2ljfgpbx4" path="res://scenes/quests/story_quests/story_quest_aventura/1_stealth/stealth_components/Lantern 7 - Silver and Yellow.png" id="1_nee55"]
+[ext_resource type="Texture2D" uid="uid://bbhr2ljfgpbx4" path="res://scenes/quests/story_quests/story_quest_aventura/2_stealth/stealth_components/Lantern 7 - Silver and Yellow.png" id="1_nee55"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1lpfb"]
 atlas = ExtResource("1_nee55")

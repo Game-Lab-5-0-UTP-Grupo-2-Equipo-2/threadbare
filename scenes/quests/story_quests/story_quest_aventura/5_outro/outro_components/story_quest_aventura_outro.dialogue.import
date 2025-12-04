@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dgs4h7g2dutbe"
+path="res://.godot/imported/story_quest_aventura_outro.dialogue-a932f8bbd935b071040abbc54ee38b92.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/story_quest_aventura/5_outro/outro_components/story_quest_aventura_outro.dialogue"
+dest_files=["res://.godot/imported/story_quest_aventura_outro.dialogue-a932f8bbd935b071040abbc54ee38b92.tres"]
+
+[params]
+
+defaults=true
